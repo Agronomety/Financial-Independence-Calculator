@@ -33,16 +33,11 @@ It calculates and displays:
 
 ## Technologies Used
 
-* **Frontend:**
-    * React
-    * JavaScript (ES6+)
-    * CSS
-    * Fetch API (for backend communication)
-* **Backend:**
-    * Node.js
-    * Express.js
-    * CORS (Cross-Origin Resource Sharing middleware)
-* **Language:** JavaScript
+* React
+
+* Javascript
+
+* Express
 
 ## Prerequisites
 
@@ -52,20 +47,15 @@ It calculates and displays:
 ## Installation
 
 1.  **Clone the repository:**
+   
     ```bash
-    git clone <your-repository-url>
-    cd financial-independence-calculator
+    git clone https://github.com/Agronomety/Financial-Independence-Calculator
+    cd finance-independance-calculator
     ```
 
-2.  **Install Backend Dependencies:**
+2.  **Install Dependencies:**
+   
     ```bash
-    cd backend
-    npm install
-    ```
-
-3.  **Install Frontend Dependencies:**
-    ```bash
-    cd ../frontend  # Go back up and into the frontend directory
     npm install
     ```
 
@@ -93,10 +83,6 @@ You need to run both the backend server and the frontend application simultaneou
         npm start
         ```
     * This will usually open the application automatically in your default web browser at `http://localhost:3001` (or another available port if 3001 is busy).
-
-3.  **Access the Calculator:**
-    * Open your web browser and navigate to the address provided by the `npm start` command for the frontend (usually `http://localhost:3001`).
-    * Use the form to input your financial details and click "Calculate".
 
 
 ## Contributing
